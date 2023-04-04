@@ -1,4 +1,28 @@
+body
+    {
+        background-color: rgb(245, 199, 155);
+    }
+
+
+
 h1
     {
-        color:rgb(170, 141, 97);
+        color:rgb(65, 36, 8);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+a
+    {
+        text-decoration: none;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 10px;
+        font-size: 16pt;
+        color:rgb(114, 43, 10);
+    }
+
+a:hover
+    {
+        color:honeydew;
+        font-size: 18pt;
+
     }
