@@ -1,14 +1,13 @@
 body
     {
-        background-color: rgb(245, 199, 155);
+        background-color: rgb(0, 0, 0);
     }
-
 
 
 h1
     {
-        color:rgb(65, 36, 8);
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(251, 255, 9);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
 a
@@ -17,12 +16,60 @@ a
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding: 10px;
         font-size: 16pt;
-        color:rgb(114, 43, 10);
+        color:rgb(233, 255, 224);
     }
 
 a:hover
     {
-        color:honeydew;
+        color:rgb(189, 178, 145);
         font-size: 18pt;
 
     }
+
+.header
+    {
+        width: 100%;
+        background-color: rgb(59, 38, 5);
+        padding-bottom: 30px;
+    }
+
+.slider
+    {
+        width: 100%;
+        background-color: rgb(216, 247, 196);
+    }
+
+.box1
+    {
+        width: 25%;
+        background-color: rgb(146, 50, 98);
+        padding-bottom: 200%;
+        float: left;
+
+    }
+
+.box2
+    {
+        width: 25%;
+        background-color: rgb(215, 221, 200);
+        padding-bottom: 200%;
+        float: left;
+    }
+
+.box3
+    {
+        width: 25%;
+        background-color: rgb(146, 50, 98);
+        padding-bottom: 200%;
+        float: left;
+    }
+
+.box4
+    {
+        width: 25%;
+        background-color: rgb(215, 221, 200);
+        padding-bottom: 200%;
+        float: left;
+    }
+
+
