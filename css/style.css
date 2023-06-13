@@ -29,7 +29,7 @@ a:hover
 .header
     {
         width: 100%;
-        background-color: rgb(7, 30, 36);
+        background-color: rgb(38, 5, 51);
         padding-bottom: 30px;
     }
 
@@ -78,3 +78,35 @@ a:hover
         font-family:'Wellfleet', cursive;
 
     }
+
+table, tr, td, th
+    {
+      border: 2px solid rgb(59, 11, 23);
+      border-collapse: collapse;
+    }
+
+td
+    {
+        padding: 5px;
+    }
+
+tr
+    {
+        background-color: rgb(171, 204, 144);
+    }
+
+tr:nth-child(odd)
+    {
+        background-color: rgb(123, 184, 201);
+    }
+
+th
+   {
+       background-color: black;
+       color: aqua;
+   }
+
+tr:hover
+   {
+    background-color: rgb(255, 255, 255);
+   }
