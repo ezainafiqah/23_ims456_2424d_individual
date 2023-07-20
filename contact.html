@@ -1,22 +1,100 @@
-<html>
-    <head>
-        <title>Contact me</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-<body>
-<h1>Here is my phone number</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<a href="index.html">Home</a>
-<a href="biodata.html">About me</a>
-<a href="contact.html">Contact me</a>
-<a href="education.html">My Education</a>
-<a href="experience.html">My Experience</a>
-<a href="hobby.html">Hobbies</a>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Patua+One&family=Wellfleet&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet">
+
+<style>
+  body {
+      background-image: url("images/photo_6181322086820198042_y.jpg");
+      background-size: 100%;
+      background-attachment:fixed;
+
+  }
+</style>
+
+
+
+<script src="script.js"></script>
+
+<body>
+  
+  <div class="date-clock">
+    <div id="date"></div>
+    <div id="clock"></div>
+</div>
+
+<script src="script.js"></script>
+
+</head>
+
+<h1 style="font-family: 'Martel', serif;">Let's Connect</h1>
+
+<div class="header">
+    <a href="index.html">Home</a>
+    <a href="biodata.html">About me</a>
+    <a href="education.html">Education & Certifications</a>
+    <a href="experience.html">My Experience</a>
+    <a href="hobby.html">Interests & Hobbies</a>
+    <a href="contact.html">Contact me</a>
+  </div>
 
 <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25302.07429397936!2d126.98511264743571!3d37.56073467343277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca257a88e6aa9%3A0x5cf8577c2e7982a5!2sN%20Seoul%20Tower!5e0!3m2!1sen!2smy!4v1688440288681!5m2!1sen!2smy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7970.908891480217!2d101.84125328920192!3d2.6800123391901467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cde85359ae7251%3A0x48f8325d13ed674f!2sMasjid%20Sri%20Sendayan%2C%20Negeri%20Sembilan!5e0!3m2!1sen!2smy!4v1689831807999!5m2!1sen!2smy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
 
 </div>
+
+
+      <p  style="font-family: 'Cinzel Decorative', cursive;" > Please feel free to reach out to me with any questions, inquiries, or collaboration opportunities. I look forward to hearing from you!</p>
+      
+
+
+      <!-- Contact Form -->
+      <form action="process_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="1" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <p>Email: ezainafiqahkamalbaharin@gmail.com</p>
+        <p>Phone: +(60) 166095425</p>
+        <p>Follow me on <a href="https://www.instagram.com/neelofa/" target="_blank">Instagram</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
 
 </body>
 </html>
